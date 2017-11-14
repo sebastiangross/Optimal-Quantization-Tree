@@ -5,8 +5,8 @@ import time
 
 import matplotlib.pyplot as plt
 import numpy
-from simulations import ornstein_uhlenbeck_1d as ou_1d
 
+from source.simulations import ornstein_uhlenbeck_1d as ou_1d
 from source import valuation
 from source.classification import optimal_quantization_tree
 
